@@ -1,0 +1,25 @@
+<html>
+<body>
+    <form action="/primi.php" method="post">
+        <fieldset>
+            <legend>Numeri primi fino a un numero</legend>
+            <label>Scrivi un numero:</label>
+            <input type="text" name="value">
+            <input type="submit" name="submit_single" value="Mostra primi">
+        </fieldset>
+    </form>
+
+    <br><br>
+
+    <form action="/primi.php" method="post">
+        <fieldset>
+            <legend>Numeri primi in un range</legend>
+            <label>Da:</label>
+            <input type="text" name="start">
+            <label>A:</label>
+            <input type="text" name="end">
+            <input type="submit" name="submit_range" value="Mostra primi nel range">
+        </fieldset>
+    </form>
+</body>
+</html>
